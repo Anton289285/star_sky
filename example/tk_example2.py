@@ -2,5 +2,5 @@
 from tkinter import *
 root=Tk()
 root.title('123')
-root.bind("x", quit)
+root.bind('<Escape>', quit)
 root.mainloop()

@@ -16,7 +16,7 @@ class sky():
 
     root = Tk()
     root.title('Star Sky')
-    root.bind("x", quit)
+    root.bind('<Escape>', quit)
 
     canvas_for_label = Canvas(root, bg = 'red')
     canvas_for_label.grid(sticky = "w")
