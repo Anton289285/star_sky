@@ -1,0 +1,29 @@
+    В этом файле я бы хотел начать называть переменные, для дальнейшего
+использования в проекте.
+:======================================================================
+
+evolving_star
+    [protostar, brown_dwarf, red_dwarf, white_dwarf, sunlike_star, red_giant, planetary_nebula,
+     white_dwarf, blue_supergiant, blue_giant, supernova, neytron_star, black_hole]
+
+
+    coordX
+    coordY
+    radius
+    colour
+    life_time
+
+    методы:
+    __init(self):
+    draw_intoRandom_point():
+    remove():
+
+A_Constellation():
+(созвездие)
+    name = ''
+    beginning_Concellation = [0, 0]    # начало координат созвездия
+    ending_Concellation = [1000, 1000] # окончание координат сожвездия
+
+
+    
+
